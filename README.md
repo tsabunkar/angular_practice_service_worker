@@ -32,6 +32,7 @@ To know more about service worker configuration (i.e configuring ngsw-config.jso
 https://angular.io/guide/service-worker-config
 
 
+```
 ngsw-config.json -> Where we configure our service-worker
 {
   "index": "/index.html", // page which we want to cache
@@ -77,6 +78,7 @@ ngsw-config.json -> Where we configure our service-worker
     }
   ]
 }
+```
 
 
 freshness-> means will service worker will use -> timeout concept
